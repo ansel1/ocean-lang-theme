@@ -1,4 +1,7 @@
-const Theme = { kind: "registry", id: "theme" };
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+
+const { Plugin, Theme } = require("@opencode/plugin/gui");
 
 const oceanTheme = {
   $schema: "https://opencode.ai/desktop-theme.json",
@@ -60,8 +63,8 @@ const oceanTheme = {
   },
 };
 
-export default {
+exports.default = Plugin.define({
   setup(ctx) {
     ctx.add(Theme, oceanTheme);
   },
-};
+});
