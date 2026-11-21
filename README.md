@@ -14,4 +14,4 @@ Dark and light themes based on the [Ocean Programming Language](https://ocean-la
 | **Slack** | `slack/README.md` | Paste the theme string into **Preferences → Appearance → Custom theme → Import**. |
 | **VS Code** | `vscode/` | Package/install as a `.vsix` or copy `vscode/` into VS Code extensions, then select **Ocean Dark** or **Ocean Light** (`⌘K ⌘T`). |
 | **OpenCode** | `opencode/ocean.json` | Copy to `~/.config/opencode/themes/ocean.json` and select `ocean` in OpenCode settings or `~/.config/opencode/cli.json`. |
-| **OpenCode Desktop** | `opencode-desktop/ocean.json` | Uses the `DesktopTheme` (`https://opencode.ai/desktop-theme.json`) schema; load via an OpenCode Desktop GUI plugin (`ctx.add(Theme, theme)`). |
+| **OpenCode Desktop** | `opencode-desktop/` | Add the path to `opencode-desktop` under `"plugins"` in `~/.config/opencode/opencode.jsonc`, restart the OpenCode service, and select **Ocean** in Settings → Appearance → Theme. |

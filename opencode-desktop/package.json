@@ -1,0 +1,9 @@
+{
+  "name": "opencode-ocean-theme",
+  "version": "0.1.0",
+  "description": "Ocean Lang dark and light theme for OpenCode Desktop",
+  "type": "module",
+  "exports": {
+    "./gui-experimental": "./gui.js"
+  }
+}
