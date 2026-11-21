@@ -12,3 +12,4 @@ Dark and light themes based on the [Ocean Programming Language](https://ocean-la
 | **T3 Code** | `t3code/ocean-lang.json` | Copy to `~/.t3/userdata/themes/` (supports both dark and light modes; named `ocean-lang.json` to avoid colliding with T3 Code's built-in `ocean` theme). |
 | **bat** | `bat/ocean-dark.tmTheme`, `bat/ocean-light.tmTheme` | Copy to `$(bat --config-dir)/themes/`, run `bat cache --build`, and use `--theme=ocean-dark` or `--theme=ocean-light`. |
 | **Slack** | `slack/README.md` | Paste the theme string into **Preferences → Appearance → Custom theme → Import**. |
+| **VS Code** | `vscode/` | Copy or symlink `vscode/` to `~/.vscode/extensions/ocean-lang-theme` and select **Ocean Dark** or **Ocean Light** in Color Theme (`⌘K ⌘T`). |
