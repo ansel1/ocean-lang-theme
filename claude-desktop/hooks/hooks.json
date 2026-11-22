@@ -1,0 +1,4 @@
+{
+  "description": "Ocean Dark and Ocean Light backdrop and color scheme mod for Claude Desktop",
+  "modules": ["./register.js"]
+}

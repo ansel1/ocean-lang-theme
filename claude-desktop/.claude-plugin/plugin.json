@@ -1,0 +1,9 @@
+{
+  "name": "ocean-lang-theme",
+  "version": "0.1.0",
+  "description": "Ocean Dark and Ocean Light themes for Claude Desktop's Code tab.",
+  "author": {
+    "name": "Ocean Lang Theme"
+  },
+  "license": "MIT"
+}
