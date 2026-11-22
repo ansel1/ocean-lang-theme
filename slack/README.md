@@ -14,6 +14,18 @@ Paste one of the theme strings below into Slack under **Preferences → Appearan
 #081120,#0d182b,#22395c,#e8eff9,#182b46,#c2ccd6,#83a271,#d8736b
 ```
 
+## Ocean Abyss (High Contrast)
+
+**Modern Slack (4 colors — System Navigation, Selected Items, Presence, Notifications):**
+```text
+#050b16,#24426e,#9ec788,#f08a82
+```
+
+**Classic Slack (8 colors):**
+```text
+#050b16,#0e1b30,#24426e,#f5f9ff,#172a47,#e6eef8,#9ec788,#f08a82
+```
+
 ## Ocean Light
 
 **Modern Slack (4 colors — System Navigation, Selected Items, Presence, Notifications):**

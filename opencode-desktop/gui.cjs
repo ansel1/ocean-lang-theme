@@ -63,8 +63,43 @@ const oceanTheme = {
   },
 };
 
+const oceanAbyssTheme = {
+  $schema: "https://opencode.ai/desktop-theme.json",
+  name: "Ocean Abyss",
+  id: "ocean-abyss",
+  light: oceanTheme.light,
+  dark: {
+    palette: {
+      neutral: "#050b16",
+      ink: "#f5f9ff",
+      primary: "#8ec4ff",
+      accent: "#f0ac6e",
+      interactive: "#8ec4ff",
+      success: "#9ec788",
+      warning: "#f0ac6e",
+      error: "#f08a82",
+      info: "#bdd5f2",
+      diffAdd: "#9ec788",
+      diffDelete: "#f08a82",
+    },
+    overrides: {
+      "syntax-comment": "#8a9db8",
+      "syntax-keyword": "#f0ac6e",
+      "syntax-primitive": "#8ec4ff",
+      "syntax-property": "#c8aad9",
+      "syntax-constant": "#9bc7ea",
+      "syntax-string": "#9ec788",
+      "syntax-type": "#9fe0ec",
+      "syntax-variable": "#e6eef8",
+      "syntax-operator": "#e6eef8",
+      "syntax-punctuation": "#e6eef8",
+    },
+  },
+};
+
 exports.default = Plugin.define({
   setup(ctx) {
     ctx.add(Theme, oceanTheme);
+    ctx.add(Theme, oceanAbyssTheme);
   },
 });

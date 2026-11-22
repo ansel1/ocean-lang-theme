@@ -36,10 +36,20 @@ test('/ocean-theme switches modes, sends valid surface colors, persists state, a
   )
   expect(fatalProblems).toEqual([])
 
+  const abyss = await $.command.run({ command: 'ocean-theme', args: 'abyss' })
+  expect(abyss.text).toContain('Ocean Abyss applied')
+  expect(themeCalls.length).toBe(2)
+  expect(themeCalls[1].overrideColorScheme).toBe('dark')
+  expect(themeCalls[1].colors?.id).toBe('ocean-abyss')
+  const abyssFatal = checkColors(themeCalls[1].colors).filter((line) =>
+    line.startsWith("Desktop won't paint"),
+  )
+  expect(abyssFatal).toEqual([])
+
   const auto = await $.command.run({ command: 'ocean-theme', args: 'auto' })
   expect(auto.text).toContain('Ocean (Auto) applied')
-  expect(themeCalls.length).toBe(2)
-  expect(themeCalls[1].overrideColorScheme).toBeUndefined()
+  expect(themeCalls.length).toBe(3)
+  expect(themeCalls[2].overrideColorScheme).toBeUndefined()
 
   const status = await $.command.run({ command: 'ocean-theme', args: '' })
   expect(status.text).toContain('auto')

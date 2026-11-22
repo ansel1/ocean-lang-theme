@@ -6,13 +6,15 @@
   <category>UI</category>
   <description><![CDATA[
     Dark and light UI themes and editor color schemes based on the Ocean Programming Language palette.
-    Includes <b>Ocean Dark</b> (deep ocean navy surfaces with muted Darcula-inspired blues) and
+    Includes <b>Ocean Dark</b> (deep ocean navy surfaces with muted Darcula-inspired blues),
+    <b>Ocean Abyss</b> (high-contrast dark variant tuned for bright lighting), and
     <b>Ocean Light</b> (cool blue-tinted paper surfaces with crisp IntelliJ-inspired syntax colors).
   ]]></description>
   <idea-version since-build="231" />
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="ocean-lang-dark" path="/themes/ocean-dark.theme.json" />
+    <themeProvider id="ocean-lang-abyss" path="/themes/ocean-abyss.theme.json" />
     <themeProvider id="ocean-lang-light" path="/themes/ocean-light.theme.json" />
   </extensions>
 </idea-plugin>

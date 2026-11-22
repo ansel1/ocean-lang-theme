@@ -1,6 +1,6 @@
 # Ocean Lang Theme for JetBrains IDEs
 
-Dark and light UI themes and editor color schemes (**Ocean Dark** and **Ocean Light**) for all JetBrains IDEs (GoLand, IntelliJ IDEA, PyCharm, WebStorm, RustRover, CLion, Rider, DataGrip, etc.).
+Dark and light UI themes and editor color schemes (**Ocean Dark**, **Ocean Abyss**, and **Ocean Light**) for all JetBrains IDEs (GoLand, IntelliJ IDEA, PyCharm, WebStorm, RustRover, CLion, Rider, DataGrip, etc.).
 
 Built on the modern JetBrains **Islands** UI (`Islands Dark` / `Islands Light`) with full editor syntax highlighting, Go-specific token mappings, diffs, diagnostics, and terminal ANSI colors.
 

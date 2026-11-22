@@ -18,6 +18,11 @@
         "path": "./themes/ocean-dark-color-theme.json"
       },
       {
+        "label": "Ocean Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ocean-abyss-color-theme.json"
+      },
+      {
         "label": "Ocean Light",
         "uiTheme": "vs",
         "path": "./themes/ocean-light-color-theme.json"

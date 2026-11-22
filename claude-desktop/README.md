@@ -1,6 +1,6 @@
 # Ocean Lang Theme for Claude Desktop
 
-A Claude Code mod plugin that applies the full **Ocean Dark** and **Ocean Light** UI surface palettes (`colors` via `makeColors`), animated SVG backdrops, frosted-glass tints, and color schemes in the Claude Desktop app's **Code** tab.
+A Claude Code mod plugin that applies the full **Ocean Dark**, **Ocean Abyss** (high-contrast dark), and **Ocean Light** UI surface palettes (`colors` via `makeColors`), animated SVG backdrops, frosted-glass tints, and color schemes in the Claude Desktop app's **Code** tab.
 
 ## Installation
 
@@ -20,6 +20,7 @@ Then start a new local session in Claude Desktop's **Code** tab (requires Claude
 
 * `/ocean-theme` — show the current setting
 * `/ocean-theme dark` — apply Ocean Dark surfaces and backdrop (default)
+* `/ocean-theme abyss` — apply Ocean Abyss high-contrast dark surfaces and backdrop
 * `/ocean-theme light` — apply Ocean Light surfaces and backdrop
 * `/ocean-theme auto` — follow Claude Desktop's light/dark appearance automatically
 * `/ocean-theme off` — clear the theme
@@ -29,4 +30,5 @@ Then start a new local session in Claude Desktop's **Code** tab (requires Claude
 Generated at load time via Claude Code's `hooks/make-colors.js` helper:
 
 * **Dark:** `surface-0: #081120`, `surface-1: #0c1729`, `surface-2: #101e34`, `surface-3: #14243d`, `text-primary: #e8eff9`, `text-secondary: #c2ccd6`, `text-muted: #a0aec2`
+* **Abyss:** `surface-0: #050b16`, `surface-1: #0a1426`, `surface-2: #0e1b30`, `surface-3: #142540`, `text-primary: #f5f9ff`, `text-secondary: #e6eef8`, `text-muted: #b8c7dc`
 * **Light:** `surface-0: #e3ebf7`, `surface-1: #edf3fc`, `surface-2: #f5f9ff`, `surface-3: #f5f9ff`, `text-primary: #182d4d`, `text-secondary: #344b6b`, `text-muted: #526680`
