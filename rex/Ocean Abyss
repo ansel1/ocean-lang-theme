@@ -1,0 +1,26 @@
+# Ocean Abyss - high-contrast dark variant of Ocean Dark for bright lighting
+# Import into Rex via Settings -> Themes -> Import Theme File
+
+palette = 0=#0e1b30
+palette = 1=#f08a82
+palette = 2=#9ec788
+palette = 3=#f0ac6e
+palette = 4=#8ec4ff
+palette = 5=#c8aad9
+palette = 6=#48dbe0
+palette = 7=#e6eef8
+palette = 8=#6880a0
+palette = 9=#ffaba4
+palette = 10=#b8dea2
+palette = 11=#ffc58f
+palette = 12=#aed5ff
+palette = 13=#c9ccfc
+palette = 14=#9fe0ec
+palette = 15=#f5f9ff
+
+background = #050b16
+foreground = #e6eef8
+cursor-color = #8ec4ff
+cursor-text = #050b16
+selection-background = #24426e
+selection-foreground = #f5f9ff

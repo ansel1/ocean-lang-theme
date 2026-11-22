@@ -7,8 +7,8 @@ Dark and light themes based on the [Ocean Programming Language](https://ocean-la
 | App | Files | Installation |
 | --- | --- | --- |
 | **Helix** | `helix/ocean-dark.toml`, `helix/ocean-light.toml` | Copy to `~/.config/helix/themes/` and select with `:theme ocean-dark` or `:theme ocean-light`. |
-| **Zed** | `zed/ocean.json` | Copy to `~/.config/zed/themes/` and select **Ocean Dark** or **Ocean Light** in the Theme Selector. |
-| **Rex** (Ghostty format) | `rex/Ocean Dark`, `rex/Ocean Light` | In Rex, open **Settings → Themes → Import Theme File** and choose either file (or copy to `~/.config/ghostty/themes/` for Ghostty). |
+| **Zed** | `zed/ocean.json` | Copy to `~/.config/zed/themes/` and select **Ocean Dark**, **Ocean Abyss**, or **Ocean Light** in the Theme Selector. |
+| **Rex** (Ghostty format) | `rex/Ocean Dark`, `rex/Ocean Abyss`, `rex/Ocean Light` | In Rex, open **Settings → Themes → Import Theme File** and choose any file (or copy to `~/.config/ghostty/themes/` for Ghostty). `Ocean Abyss` is a high-contrast dark variant tuned for bright lighting. |
 | **T3 Code** | `t3code/ocean-lang.json` | Copy to `~/.t3/userdata/themes/` (supports both dark and light modes; named `ocean-lang.json` to avoid colliding with T3 Code's built-in `ocean` theme). |
 | **TextMate** (`.tmTheme`) | `textmate/ocean-dark.tmTheme`, `textmate/ocean-light.tmTheme` | Standard TextMate XML theme format used by **Codex CLI**, **`bat`**, **`git-delta`**, **Sublime Text**, **TextMate**, and other `syntect`-based tools.<br>• **Codex CLI:** Copy/symlink to `~/.codex/themes/` and set `theme = "ocean-dark"` (or `"ocean-light"`) under `[tui]` in `~/.codex/config.toml` (or pick via `/theme`).<br>• **`bat` / `git-delta`:** Copy to `$(bat --config-dir)/themes/`, run `bat cache --build`, and use `--theme=ocean-dark` or `--theme=ocean-light`. |
 | **Slack** | `slack/README.md` | Paste the theme string into **Preferences → Appearance → Custom theme → Import**. |
