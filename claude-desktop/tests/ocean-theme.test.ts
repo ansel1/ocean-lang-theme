@@ -1,8 +1,9 @@
 import { expect, test } from 'claude-code/testing'
+import { checkColors } from '../hooks/make-colors.js'
 
-test('/ocean-theme switches modes, persists state, and rejects invalid args', async ($, on) => {
+test('/ocean-theme switches modes, sends valid surface colors, persists state, and rejects invalid args', async ($, on) => {
   const store = new Map<string, unknown>()
-  const themeCalls: unknown[] = []
+  const themeCalls: Array<Record<string, any>> = []
   let cleared = 0
 
   on('store.get', (_, e) => ({ value: store.get(e.key) }))
@@ -11,7 +12,7 @@ test('/ocean-theme switches modes, persists state, and rejects invalid args', as
     return { value: undefined }
   })
   on('theme.set', (_, e) => {
-    themeCalls.push(e)
+    themeCalls.push(e as Record<string, any>)
     return { value: { isDrawn: true } }
   })
   on('theme.clear', () => {
@@ -25,9 +26,23 @@ test('/ocean-theme switches modes, persists state, and rejects invalid args', as
   const light = await $.command.run({ command: 'ocean-theme', args: 'light' })
   expect(light.text).toContain('Ocean Light applied')
   expect(themeCalls.length).toBe(1)
+  expect(themeCalls[0].overrideColorScheme).toBe('light')
+  expect(themeCalls[0].colors?.v).toBe(1)
+  expect(Object.keys(themeCalls[0].colors?.inputs?.light ?? {}).length).toBeGreaterThan(50)
+  expect(Object.keys(themeCalls[0].colors?.inputs?.dark ?? {}).length).toBeGreaterThan(50)
+
+  const fatalProblems = checkColors(themeCalls[0].colors).filter((line) =>
+    line.startsWith("Desktop won't paint"),
+  )
+  expect(fatalProblems).toEqual([])
+
+  const auto = await $.command.run({ command: 'ocean-theme', args: 'auto' })
+  expect(auto.text).toContain('Ocean (Auto) applied')
+  expect(themeCalls.length).toBe(2)
+  expect(themeCalls[1].overrideColorScheme).toBeUndefined()
 
   const status = await $.command.run({ command: 'ocean-theme', args: '' })
-  expect(status.text).toContain('light')
+  expect(status.text).toContain('auto')
 
   const off = await $.command.run({ command: 'ocean-theme', args: 'off' })
   expect(off.text).toContain('cleared')
