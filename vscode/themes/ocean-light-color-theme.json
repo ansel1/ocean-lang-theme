@@ -106,7 +106,7 @@
     "editorHoverWidget.background": "#e3ebf7",
     "editorHoverWidget.border": "#a9b9cf",
     "editorGutter.addedBackground": "#067d17",
-    "editorGutter.modifiedBackground": "#1750eb",
+    "editorGutter.modifiedBackground": "#9a5b13",
     "editorGutter.deletedBackground": "#b3261e",
     "diffEditor.insertedTextBackground": "#067d171f",
     "diffEditor.removedTextBackground": "#b3261e1f",
@@ -135,7 +135,7 @@
     "menu.selectionBackground": "#d4e2f5",
     "menu.border": "#a9b9cf",
     "gitDecoration.addedResourceForeground": "#067d17",
-    "gitDecoration.modifiedResourceForeground": "#1750eb",
+    "gitDecoration.modifiedResourceForeground": "#9a5b13",
     "gitDecoration.deletedResourceForeground": "#b3261e",
     "gitDecoration.untrackedResourceForeground": "#067d17",
     "gitDecoration.ignoredResourceForeground": "#788496",
@@ -379,7 +379,7 @@
     {
       "name": "Diff Changed",
       "scope": ["markup.changed"],
-      "settings": { "foreground": "#1750eb" }
+      "settings": { "foreground": "#9a5b13" }
     }
   ],
   "semanticTokenColors": {

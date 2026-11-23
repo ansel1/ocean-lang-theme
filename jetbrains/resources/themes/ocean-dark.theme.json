@@ -103,7 +103,7 @@
       "focusColor": "accent",
       "separatorColor": "borderSubtle",
       "separatorForeground": "muted",
-      "modifiedItemForeground": "accent"
+      "modifiedItemForeground": "keyword"
     },
     "MainWindow.background": "bgDeep",
     "Island": {

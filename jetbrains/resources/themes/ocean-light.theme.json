@@ -105,7 +105,7 @@
       "focusColor": "accent",
       "separatorColor": "borderSubtle",
       "separatorForeground": "muted",
-      "modifiedItemForeground": "accent"
+      "modifiedItemForeground": "warning"
     },
     "MainWindow.background": "bgChrome",
     "Island": {

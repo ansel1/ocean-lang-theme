@@ -106,7 +106,7 @@
     "editorHoverWidget.background": "#0e1b30",
     "editorHoverWidget.border": "#365075",
     "editorGutter.addedBackground": "#9ec788",
-    "editorGutter.modifiedBackground": "#9bc7ea",
+    "editorGutter.modifiedBackground": "#f0ac6e",
     "editorGutter.deletedBackground": "#f08a82",
     "diffEditor.insertedTextBackground": "#9ec78826",
     "diffEditor.removedTextBackground": "#f08a8226",
@@ -135,7 +135,7 @@
     "menu.selectionBackground": "#172a47",
     "menu.border": "#365075",
     "gitDecoration.addedResourceForeground": "#9ec788",
-    "gitDecoration.modifiedResourceForeground": "#9bc7ea",
+    "gitDecoration.modifiedResourceForeground": "#f0ac6e",
     "gitDecoration.deletedResourceForeground": "#f08a82",
     "gitDecoration.untrackedResourceForeground": "#9ec788",
     "gitDecoration.ignoredResourceForeground": "#8a9db8",
@@ -539,7 +539,7 @@
         "markup.changed"
       ],
       "settings": {
-        "foreground": "#9bc7ea"
+        "foreground": "#f0ac6e"
       }
     }
   ],

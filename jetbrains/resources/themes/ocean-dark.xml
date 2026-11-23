@@ -22,14 +22,14 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d8736b" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d8736b" />
     <option name="FILESTATUS_MERGED" value="ab8fba" />
-    <option name="FILESTATUS_MODIFIED" value="79b8ff" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="79b8ff" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="79b8ff" />
+    <option name="FILESTATUS_MODIFIED" value="d58d52" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="d58d52" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="d58d52" />
     <option name="FILESTATUS_RENAMED" value="79b8ff" />
     <option name="FILESTATUS_UNKNOWN" value="d58d52" />
     <option name="FILESTATUS_addedOutside" value="83a271" />
     <option name="FILESTATUS_changelistConflict" value="d8736b" />
-    <option name="FILESTATUS_modifiedOutside" value="79b8ff" />
+    <option name="FILESTATUS_modifiedOutside" value="d58d52" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="2b3e59" />
     <option name="GUTTER_BACKGROUND" value="081120" />
     <option name="HINT_BORDER" value="2b3e59" />
@@ -40,7 +40,7 @@
     <option name="LOOKUP_COLOR" value="0d182b" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="79a0cd" />
     <option name="METHOD_SEPARATORS_COLOR" value="182b46" />
-    <option name="MODIFIED_LINES_COLOR" value="84aac8" />
+    <option name="MODIFIED_LINES_COLOR" value="d58d52" />
     <option name="NOTIFICATION_BACKGROUND" value="162945" />
     <option name="QUESTION_HINT" value="162945" />
     <option name="RECENT_LOCATIONS_SELECTION" value="182b46" />
@@ -502,13 +502,13 @@
     <option name="DIFF_MODIFIED">
       <value>
         <option name="BACKGROUND" value="162945" />
-        <option name="ERROR_STRIPE_COLOR" value="84aac8" />
+        <option name="ERROR_STRIPE_COLOR" value="d58d52" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
       <value>
         <option name="BACKGROUND" value="2e231e" />
-        <option name="ERROR_STRIPE_COLOR" value="d58d52" />
+        <option name="ERROR_STRIPE_COLOR" value="ab8fba" />
       </value>
     </option>
 
