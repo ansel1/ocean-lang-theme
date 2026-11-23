@@ -53,8 +53,11 @@
 
 # Diffs
 "diff.plus" = "added"
+"diff.plus.gutter" = "added"
 "diff.minus" = "removed"
+"diff.minus.gutter" = "removed"
 "diff.delta" = "changed"
+"diff.delta.gutter" = "changed"
 
 # Interface
 "ui.background" = { bg = "bg" }
