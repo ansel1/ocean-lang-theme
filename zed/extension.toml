@@ -1,0 +1,16 @@
+id = "ocean"
+name = "Ocean"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ocean contributors"]
+description = "Ocean programming language support, Tree-sitter grammar, LSP, and themes for Zed and Gram"
+repository = "https://github.com/ansel1/ocean-lang-theme"
+
+[language_servers.ocean-lsp]
+name = "Ocean LSP"
+languages = ["Ocean"]
+
+[grammars.ocean]
+repository = "https://github.com/ocean-foundation/ocean-c"
+rev = "3ada4debdba59915150919b4108833ef07f48947"
+path = "editors/helix/grammar"
